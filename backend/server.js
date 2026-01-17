@@ -9,7 +9,7 @@ const app = express();
 connectDB();
 
 
-app.use(cors());
+app.use(cors({origin:"https://task-management-mu-ecru.vercel.app"}));
 app.use(express.json());
 
 
